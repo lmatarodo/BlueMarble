@@ -1,3 +1,4 @@
+package GUI;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -31,7 +32,7 @@ public class Board {
         gbc.insets = new Insets(100, 0, 0, 0); 
         boardPanel.add(dice, gbc);
 
-        JButton rollButton = new JButton("주사위 굴리기");
+        JButton rollButton = new JButton("주사?�� 굴리�?");
         rollButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 dice.roll();
